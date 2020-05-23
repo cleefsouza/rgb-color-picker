@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <title>RGB Color Picker</title>
+</head>
+
+<body class="flex">
+    <div class="flex main">
+        <div class="flex container-color">
+            <div class="flex input-color">
+                <span>RED</span>
+                <div class="flex range">
+                    <input type="range" id="redRange" value="0" min="0" max="255">
+                    <span id="redNumber">0</span>
+                </div>
+            </div>
+
+            <div class="flex input-color">
+                <span>GREEN</span>
+                <div class="flex range">
+                    <input type="range" id="greenRange" value="0" min="0" max="255">
+                    <span id="greenNumber">0</span>
+                </div>
+            </div>
+
+            <div class="flex input-color">
+                <span>BLUE</span>
+                <div class="flex range">
+                    <input type="range" id="blueRange" value="0" min="0" max="255">
+                    <span id="blueNumber">0</span>
+                </div>
+            </div>
+        </div>
+        <div class="result-color"></div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
