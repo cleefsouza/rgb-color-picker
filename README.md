@@ -1,8 +1,6 @@
 # RGB COLOR PICKER
 ### Simples RGB Color Picker
 
-Live Website: LINK
-
-Feel free to copy and make any changes
+Exercício do Bootcamp Desenvolvedor FullStack da IGTI
 
 Made with :green_heart: by [Cleef Souza](https://www.linkedin.com/in/aryosvalldo-cleef/)
